@@ -1,0 +1,74 @@
+* {box-sizing: border-box;}
+form {
+    width: auto;
+    float: outside;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+input {
+    width: 350px;
+    height: 42px;
+    padding-left: 15px;
+    border-radius: 42px;
+    border: 2px solid #3e8a93;
+    background: #F9F0DA;
+    outline: none;
+    position: relative;
+    transition: .3s linear;
+}
+input:focus {
+    width: 400px;
+}
+button {
+    width: 42px;
+    height: 42px;
+    background: none;
+    border: none;
+    position: absolute;
+    top: -2px;
+    right: 0;
+}
+button:before{
+    content: "\f002";
+    font-family: FontAwesome;
+    color: #324b4e;
+}
+
+.output_text{
+    border-radius: 30px;
+    border: 2px solid #3e8a93;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.followers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.repos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.followers_repos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 22px;
+    color: cornflowerblue;
+
+}
